@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#BC1414</color>
+    <color name="colorPrimaryDark">#550505</color>
+    <color name="backGroundEdMessage">#731A71</color>
+    <color name="rosaPastel">#F5B6ACB8</color>
+</resources>

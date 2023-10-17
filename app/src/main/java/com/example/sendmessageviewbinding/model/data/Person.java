@@ -14,7 +14,7 @@ import java.util.Objects;
  * @version 1.0
  */
 public class Person implements Parcelable, Serializable {
-    public static final String KEY = "Person";
+    public static final String KEY = "Per   son";
     private String name;
     private String surname;
     private String dni;

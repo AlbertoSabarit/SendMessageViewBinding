@@ -33,7 +33,7 @@ public class SendMessageActivity extends AppCompatActivity {
     }
 
 
-    //region Ciclo de vida de las Activities
+        //region Ciclo de vida de las Activities
     @Override
     protected void onStart() {
         super.onStart();
@@ -95,7 +95,7 @@ public class SendMessageActivity extends AppCompatActivity {
         Person persone = new Person("Alberto", "Sabarit", "44653879T");
         Person persond = new Person("Antonio", "Barba", "44653880R");
         Message message = new Message(1, binding.edMessage.getText().toString(), persone, persond);
-        bundle.putSerializable(Message.KEY, message);
+        bundle.putParcelable(Message.KEY, message);
         intent.putExtras(bundle);
         startActivity(intent);
     }

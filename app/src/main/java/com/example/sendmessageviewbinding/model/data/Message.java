@@ -8,8 +8,9 @@ import java.util.Objects;
 
 /**
  * Clase Message que guarda un mensaje que manda una persona emisor a otra persona
- * @autor Alberto Sabarit Peñalosa
+ *
  * @version 1.0
+ * @autor Alberto Sabarit Peñalosa
  */
 public class Message implements Serializable, Parcelable {
 
@@ -27,7 +28,6 @@ public class Message implements Serializable, Parcelable {
     }
 
     //region Métodos SET y GET de la clase Message
-
 
 
     public int getId() {

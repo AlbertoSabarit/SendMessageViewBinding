@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name = "tvTitleMessage_textSize">30sp</dimen>
+    <dimen name = "zero">0sp</dimen>
+    <dimen name = "et_marginS">16sp</dimen>
+    <dimen name = "et_marginT">32sp</dimen>
+    <dimen name = "et_marginB">72sp</dimen>
+    <dimen name = "tv_marginTop">40sp</dimen>
+    <dimen name = "tv_Up">130sp</dimen>
+    <dimen name = "tv_Down">500sp</dimen>
+    <dimen name = "tv_layContrHor">0.12</dimen>
+    <dimen name = "tv_BtnlayContrHor">0.92</dimen>
+    <dimen name = "tv_BtnlayContrVer">0.98</dimen>
 </resources>
